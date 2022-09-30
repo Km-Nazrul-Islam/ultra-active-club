@@ -1,0 +1,19 @@
+.asidebar {
+    position: sticky;
+    top: 0;
+    padding: 20px 30px;
+}
+
+.asidebar button {
+    margin-right: 6px;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.asidebar button:hover {
+    color: darkgreen;
+}
+
+
+
+

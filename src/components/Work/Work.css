@@ -1,0 +1,44 @@
+.activity {
+    width: 300px;
+    height: 530px;
+    border: 2px solid tan;
+    border-radius: 10px;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.activity img{
+    width: 286px;
+    height: 220px;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.activity-info {
+    margin: 0 14px;
+}
+
+.btn-task {
+    width: 100%;
+    background-color: burlywood;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-task:hover{
+    background-color: yellowgreen;
+} 
+
+
+@media only screen and (max-width: 700px) {
+    .btn-task {
+            width: 75%;
+            background-color: burlywood;
+            margin-bottom: 2px;
+            border-radius: 10px;
+            margin-left: -115px;
+            margin-bottom: 10px;
+        }
+}
+
